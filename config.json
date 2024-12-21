@@ -1,0 +1,14 @@
+{
+    "url": "https://www.serv00.com/offer/create_new_account",
+    "max_retries": 3,
+    "timeout": 5,
+    "wait_time": 0.5,
+    "headless": true,
+    "geckodriver_path": "/usr/bin/geckodriver",
+    "proxy": {
+        "enabled": false,
+        "http": "http://BrWVsMGdBrtN:4Px5lrFgpWhL@superproxy.zenrows.com:1338",
+        "https": "https://BrWVsMGdBrtN:4Px5lrFgpWhL@superproxy.zenrows.com:1338"
+    },
+    "max_concurrent_tasks": 3
+}
