@@ -121,7 +121,8 @@ class AccountRegistration:
         options.add_argument('--single-process')
         options.add_argument('--disable-infobars')
         
-        service = Service(CONFIG.get('geckodriver_path', '/usr/local/bin/geckodriver'))
+        service = Service('/root/Serv00-Reg/geckodriver')
+        # service = Service(CONFIG.get('geckodriver_path', '/usr/local/bin/geckodriver'))
         self.driver = webdriver.Firefox(service=service, options=options)
         self.driver.implicitly_wait(CONFIG['wait_time'])
         # 设置窗口大小以确保元素可见性
